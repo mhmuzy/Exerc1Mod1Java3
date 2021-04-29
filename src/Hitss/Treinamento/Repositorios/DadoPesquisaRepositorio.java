@@ -29,7 +29,21 @@ public class DadoPesquisaRepositorio {
 
 		
 		
+	for (int i = 1; i < Salario.length; i++) {
+		if (Salario[i] <= 1500 && Sexo[i] == "F") {
+			System.out.println("Quantidade de Mulher(es) Que Recebem o Salário de Até R$: 1500,00 é: " + Sexo[i].length());
+			
+		}
+			
 		
+	}
+		
+
+		for (int i = 1; i < Salario.length; i++) {
+			if (Salario[i] == 1200.00) {
+				System.out.println("A Idade da Pessoa Que Recebe o Menor Salário é: " + Idade[i]);
+			}
+		}
 		
 		Arrays.sort(Idade);
 		int maior = Idade[4]; 

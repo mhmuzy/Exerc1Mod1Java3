@@ -7,10 +7,10 @@ public class Program {
 		System.out.println("");
 		System.out.println("Hitss Treinamento:");
 		System.out.println("");
-		System.out.println("Prezado(a) Usuário(a), estamos em Desenvolvimento no momento.");
-		
+		System.out.println("              Resultado das Pesquisas:");
+		System.out.println("-----------------------------------------------------------------------------");
 		DadoPesquisaRepositorio rep = new DadoPesquisaRepositorio();
 		rep.CalcularMediaSalarial();
-		
+		System.out.println("-----------------------------------------------------------------------------");
 	}
 }
